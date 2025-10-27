@@ -31,3 +31,33 @@
 
 -create notebook folder and load kaggle dataset
 -create mongoDB_demo.ipynb file >> select vehicle kernel   
+
+-MONGO ipynb
+
+    -read csv data and convert to dictionary
+    -create mongodb code for it, add connection string and password (add to .gitgnore before pushing)
+    -create and client and push to mongodb
+
+-LOGGING FILE
+    -in src/logger.__init__.py 
+    -create log constant
+        -create log folder, log file format, max log file size, backup count
+    -create log path
+        -create log dir path(if exists) and log file path
+    -create def configure_logger()
+        -create custom logger
+        -define format
+        -create file handler
+        -create console handler
+        -add loggers to handler
+    -test demo file for log messages
+        -debug
+        -info
+        -warning
+        -error
+        -critical
+
+-EXCEPTION FILE
+    -create def error_message_detail()
+        -extracts traceback, filename, line number, error message
+    -creat MyException(Excpetion) class
