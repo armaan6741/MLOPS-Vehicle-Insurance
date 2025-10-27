@@ -1,0 +1,33 @@
+-template file creates base structure of project by adding necessary files
+-create setup.py file and pyproject.toml
+-add requirements and remove -e .
+
+-CONDA 
+    
+    -Install conda and add to scripts and anaconda3 to path
+    -conda init on conda prompt for cmd and powershell
+    -conda env list: shows list of environments
+    -create an environment using command in projectflow.txt
+    -conda activate env
+    -pip install -r requirements.txt
+
+-MONGO DB
+
+    -login and create organisation
+    -create a project
+    -create a cluster
+        - Username : armaanhaider23_db_user
+        - password : lhoqTXwdv9mnl3m5
+    -create database user and close
+    -go to network access and add ip address (0.0.0.0/0)
+    -go back to project
+    -add connection string and select python 3.6+ copy application string
+        -mongodb+srv://armaanhaider23_db_user:<db_password>@cluster0.pesq13m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+-after pip list, add -e . back
+-run pip install -r requirements.txt
+-src will be installed
+-git add, commit, Push
+
+-create notebook folder and load kaggle dataset
+-create mongoDB_demo.ipynb file >> select vehicle kernel   
