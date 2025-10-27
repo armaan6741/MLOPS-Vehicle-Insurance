@@ -61,3 +61,28 @@
     -create def error_message_detail()
         -extracts traceback, filename, line number, error message
     -creat MyException(Excpetion) class
+
+-EXP-NOTEBOOK.ipynb
+    -read data.csv
+    -EDA - shape,isnull,info,describe,value_counts
+    -Visuals
+        -barplot(Response,Gender,DL)
+        -hist
+        -group by
+        -scatterplot(Age vs Annual Premium)
+        -catplot(gender vs response, gender vs DL, Vehicle damage)
+        -countplot(Previous Insured, Vehicle Age, Vehicle Damage)
+    -Preprocessing
+        -divide num_feat, categorical_feat
+        -map gender with 0,1
+        -get dummies for categorical_feat and convert to int
+        -standard scaler(num_feat), minmaxscaler(Annual Premium)
+        -train_test_split(drop response)
+    -Model Trainer
+        -Random Forest
+            -choose best hyperparamters (entropy,max_depth,min_samples,min_samples_leaf,n_estimators)
+        -save in pickle file
+    -Model Evaluation
+        -classification report
+
+
