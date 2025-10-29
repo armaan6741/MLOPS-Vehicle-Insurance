@@ -85,4 +85,8 @@
     -Model Evaluation
         -classification report
 
+DATA INGESTION
+    -declare constants in src/constants/__init__.py
+    -
+
 
