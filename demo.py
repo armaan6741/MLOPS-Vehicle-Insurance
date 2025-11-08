@@ -19,10 +19,6 @@
 #     logging.info(e)
 #     raise MyException(e, sys) from e
 
-from src.pipline.training_pipeline import TrainPipeline
-
-pipline = TrainPipeline()
-pipline.run_pipeline()
 
 # import os
 # from datetime import datetime
@@ -46,4 +42,17 @@ pipline.run_pipeline()
 
 # sub_trial: str = os.path.join(trial_dir,SUB_TRIAL)
 # os.makedirs(sub_trial, exist_ok=True)
+
+# from src.pipline.training_pipeline import TrainPipeline
+
+# pipline = TrainPipeline()
+# pipline.run_pipeline()
+
+import os 
+ 
+path = "static/css/style.css"
+path2 = "templates/vehicledata.html"
+
+os.makedirs(path, exist_ok=True)
+os.makedirs(path2, exist_ok=True)
 
