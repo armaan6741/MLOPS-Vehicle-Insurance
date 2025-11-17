@@ -2,6 +2,7 @@ knowledge.txt
 env.txt
 artifact/
 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
